@@ -1,23 +1,25 @@
+/* Set the background color of the body */
 body {
-  background pink;
+  background: pink;
 }
 
+/* Set the font size of h1 */
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
 }
 
+/* Set the font weight of h2 */
 h2 {
-  color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal;
+  font-style: normal; /* Ensure it is not italic */
 }
 
+/* Set the font size for elements with the class "completed" */
 .completed {
-  font-family: 12px;
+  font-size: 12px;
 }
 
+/* Set the background color for elements with class "completed" inside #tasks */
 #tasks .completed {
-  backgound: #ccc;
-  text-decoration: underline;
+  background: #ccc;
 }
